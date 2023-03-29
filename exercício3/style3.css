@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width:100%;
+}
+
+.esquerda{
+    background-color:orange;
+    width:25%;
+}
+
+.direita{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    width:100%;
+    background-color: rgb(81, 163, 234);
+    height: 10%;
+}
+
+.content{
+    width:75%;
+    height:80%;
+    background-color: blueviolet;
+}
+
+.aside {
+    width:25%;
+    height: 80%;
+    background-color: orange;
+}
+
+.footer {
+    width:100%;
+    height: 10%;
+    background-color: aquamarine;
+
+}

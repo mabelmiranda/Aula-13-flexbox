@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+}
+#main {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+header,footer {
+    background-color: #23af36;
+    height: 200px;
+}
+aside,nav {
+    background-color: rgb(111, 37, 48);
+    width: 20%;
+}
+article {
+    background-color: rgb(14, 76, 105);
+    width: 60%;
+}
+article,nav,aside,header,footer {
+    padding: 1px;
+    margin: 1px;
+}
